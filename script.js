@@ -7,6 +7,7 @@ function onReady() {
 
     let potatoButton = document.getElementById('potato_button');
 
+    let unicornButton = document.getElementById('unicorn_button');
 
 
 }
@@ -17,6 +18,12 @@ function handlePotatoClick() {
     theDivIWantToAddTo.innerText = '🥔';
 
     // if I want more, there are ways, we'll get to them...
+}
+
+function handleUnicornClick() {
+    //for one unicorn
+    let theDivIWantToAddTo = document.querySelector('#unicorn_div');
+    theDivIWantToAddTo.innerText = '🦄';
 }
 
 // Will call onReady() when the page loads.
